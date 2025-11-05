@@ -1,0 +1,145 @@
+[05Nov2025 15:36:56.407] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forge_server, nogui]
+[05Nov2025 15:36:56.414] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Oracle Corporation Java HotSpot(TM) 64-Bit Server VM 25.0.1+8-LTS-27
+[05Nov2025 15:36:56.415] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.2.4 starting: java version 25.0.1 by Oracle Corporation; OS Windows 10 arch amd64 version 10.0
+[05Nov2025 15:36:56.574] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forge_server
+[05Nov2025 15:36:56.727] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=jar:file:///C:/Users/nerboros/forge-1.21.10/libraries/org/spongepowered/mixin/0.8.7/mixin-0.8.7.jar!/ Service=ModLauncher Env=SERVER
+[05Nov2025 15:36:57.053] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[05Nov2025 15:36:57.420] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forge_server' with arguments [nogui]
+[05Nov2025 15:37:06.723] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 60.0.15, for MC 1.21.10 with MCP 20251007.101210
+[05Nov2025 15:37:06.726] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v60.0.15 Initialized
+[05Nov2025 15:37:06.743] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Opening jdk.naming.dns/com.sun.jndi.dns to java.naming
+[05Nov2025 15:37:07.320] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[05Nov2025 15:37:08.139] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: BETA Current: 60.0.15 Target: 60.0.15
+[05Nov2025 15:37:08.654] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[05Nov2025 15:37:12.480] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1461 recipes
+[05Nov2025 15:37:12.517] [main/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1574 advancements
+[05Nov2025 15:37:12.758] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.21.10
+[05Nov2025 15:37:12.759] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[05Nov2025 15:37:12.760] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[05Nov2025 15:37:12.761] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[05Nov2025 15:37:12.894] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[05Nov2025 15:37:12.977] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using default channel type
+[05Nov2025 15:37:13.063] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[05Nov2025 15:37:13.065] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[05Nov2025 15:37:13.066] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[05Nov2025 15:37:13.068] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[05Nov2025 15:37:13.122] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[05Nov2025 15:37:13.660] [Server thread/INFO] [net.minecraft.server.level.progress.LoggingLevelLoadListener/]: Loading 0 persistent chunks...
+[05Nov2025 15:37:13.663] [Server thread/INFO] [net.minecraft.server.level.progress.LoggingLevelLoadListener/]: Preparing spawn area: 100%
+[05Nov2025 15:37:13.677] [Server thread/INFO] [net.minecraft.server.level.progress.LoggingLevelLoadListener/]: Time elapsed: 18 ms
+[05Nov2025 15:37:13.680] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (0.584s)! For help, type "help"
+[05Nov2025 15:37:13.804] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[05Nov2025 15:37:36.022] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: qu1xxxy[/92.63.76.75:64004] logged in with entity id 108 at (363.76249998807907, 60.0, -10.30409429293476)
+[05Nov2025 15:37:36.066] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: qu1xxxy joined the game
+[05Nov2025 15:47:20.401] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: qu1xxxy moved too quickly! 4.193069888365812,2.2712241076924897,8.927420883004562
+[05Nov2025 15:47:24.426] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: qu1xxxy was kicked for floating too long!
+[05Nov2025 15:47:24.477] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: qu1xxxy was kicked for floating too long!
+[05Nov2025 15:47:24.536] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: qu1xxxy was kicked for floating too long!
+[05Nov2025 15:47:24.577] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: qu1xxxy was kicked for floating too long!
+[05Nov2025 15:47:24.628] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: qu1xxxy was kicked for floating too long!
+[05Nov2025 15:47:24.677] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: qu1xxxy was kicked for floating too long!
+[05Nov2025 15:47:24.728] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: qu1xxxy was kicked for floating too long!
+[05Nov2025 15:47:24.777] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: qu1xxxy was kicked for floating too long!
+[05Nov2025 15:47:24.826] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: qu1xxxy was kicked for floating too long!
+[05Nov2025 15:47:24.877] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: qu1xxxy was kicked for floating too long!
+[05Nov2025 15:47:24.927] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: qu1xxxy was kicked for floating too long!
+[05Nov2025 15:47:24.976] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: qu1xxxy was kicked for floating too long!
+[05Nov2025 15:47:25.028] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: qu1xxxy was kicked for floating too long!
+[05Nov2025 15:47:25.077] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: qu1xxxy was kicked for floating too long!
+[05Nov2025 15:47:25.126] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: qu1xxxy was kicked for floating too long!
+[05Nov2025 15:47:25.177] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: qu1xxxy was kicked for floating too long!
+[05Nov2025 15:47:25.232] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: qu1xxxy was kicked for floating too long!
+[05Nov2025 15:47:25.277] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: qu1xxxy was kicked for floating too long!
+[05Nov2025 15:47:25.327] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: qu1xxxy was kicked for floating too long!
+[05Nov2025 15:47:25.377] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: qu1xxxy was kicked for floating too long!
+[05Nov2025 15:47:25.427] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: qu1xxxy was kicked for floating too long!
+[05Nov2025 15:47:25.477] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: qu1xxxy was kicked for floating too long!
+[05Nov2025 15:47:25.528] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: qu1xxxy was kicked for floating too long!
+[05Nov2025 15:47:25.577] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: qu1xxxy was kicked for floating too long!
+[05Nov2025 15:47:25.626] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: qu1xxxy was kicked for floating too long!
+[05Nov2025 15:47:25.677] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: qu1xxxy was kicked for floating too long!
+[05Nov2025 15:47:25.726] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: qu1xxxy was kicked for floating too long!
+[05Nov2025 15:47:25.777] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: qu1xxxy was kicked for floating too long!
+[05Nov2025 15:47:25.827] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: qu1xxxy was kicked for floating too long!
+[05Nov2025 15:47:25.877] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: qu1xxxy was kicked for floating too long!
+[05Nov2025 15:47:25.927] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: qu1xxxy was kicked for floating too long!
+[05Nov2025 15:47:25.976] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: qu1xxxy was kicked for floating too long!
+[05Nov2025 15:47:26.027] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: qu1xxxy was kicked for floating too long!
+[05Nov2025 15:47:26.078] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: qu1xxxy was kicked for floating too long!
+[05Nov2025 15:47:26.128] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: qu1xxxy was kicked for floating too long!
+[05Nov2025 15:47:26.178] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: qu1xxxy was kicked for floating too long!
+[05Nov2025 15:47:26.228] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: qu1xxxy was kicked for floating too long!
+[05Nov2025 15:47:26.279] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: qu1xxxy was kicked for floating too long!
+[05Nov2025 15:47:26.327] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: qu1xxxy was kicked for floating too long!
+[05Nov2025 15:47:26.376] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: qu1xxxy was kicked for floating too long!
+[05Nov2025 15:47:26.427] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: qu1xxxy was kicked for floating too long!
+[05Nov2025 15:47:26.476] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: qu1xxxy was kicked for floating too long!
+[05Nov2025 15:47:26.526] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: qu1xxxy was kicked for floating too long!
+[05Nov2025 15:47:26.577] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: qu1xxxy lost connection: Flying is not enabled on this server
+[05Nov2025 15:47:26.580] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: qu1xxxy left the game
+[05Nov2025 15:47:51.636] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: qu1xxxy[/92.63.76.75:60154] logged in with entity id 1546 at (362.29333229287056, 65.17675927506424, -1.6802382441912693)
+[05Nov2025 15:47:51.642] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: qu1xxxy joined the game
+[05Nov2025 15:53:35.865] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=375, y=65, z=19} BlockPos{x=376, y=63, z=21}
+[05Nov2025 15:53:35.913] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=375, y=65, z=19} BlockPos{x=376, y=63, z=21}
+[05Nov2025 15:53:35.962] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=375, y=65, z=19} BlockPos{x=376, y=63, z=21}
+[05Nov2025 15:53:37.112] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=374, y=65, z=18} BlockPos{x=375, y=63, z=19}
+[05Nov2025 16:08:59.677] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: qu1xxxy lost connection: Timed out
+[05Nov2025 16:08:59.680] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: qu1xxxy left the game
+[05Nov2025 16:09:59.663] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Server empty for 60 seconds, pausing
+[05Nov2025 16:13:04.279] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: qu1xxxy[/92.63.76.75:50846] logged in with entity id 5031 at (363.76249998807907, 60.0, -10.668975056398507)
+[05Nov2025 16:13:04.284] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: qu1xxxy joined the game
+[05Nov2025 16:18:11.829] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: qu1xxxy lost connection: Disconnected
+[05Nov2025 16:18:11.831] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: qu1xxxy left the game
+[05Nov2025 16:19:11.813] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Server empty for 60 seconds, pausing
+[05Nov2025 16:20:35.829] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: qu1xxxy[/92.63.76.75:49887] logged in with entity id 5882 at (363.76249998807907, 60.0, -10.668975056398507)
+[05Nov2025 16:20:35.836] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: qu1xxxy joined the game
+[05Nov2025 16:27:33.735] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: duh[/127.0.0.1:52843] logged in with entity id 6863 at (-1122.7986225357902, -45.0, 1494.383383455347)
+[05Nov2025 16:27:33.746] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: duh joined the game
+[05Nov2025 16:27:50.335] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: duh lost connection: Disconnected
+[05Nov2025 16:27:50.338] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: duh left the game
+[05Nov2025 16:28:24.578] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: duh[/127.0.0.1:53057] logged in with entity id 7129 at (-1122.7986225357902, -45.0, 1494.383383455347)
+[05Nov2025 16:28:24.587] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: duh joined the game
+[05Nov2025 16:37:52.331] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2015ms or 40 ticks behind
+[05Nov2025 16:38:11.477] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4164ms or 83 ticks behind
+[05Nov2025 16:42:18.799] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <qu1xxxy> прувет
+[05Nov2025 16:42:26.011] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <qu1xxxy> дс
+[05Nov2025 16:42:26.266] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <duh> зало
+[05Nov2025 16:42:29.402] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <duh> оке
+[05Nov2025 16:42:41.030] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2068ms or 41 ticks behind
+[05Nov2025 16:42:59.013] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3001ms or 60 ticks behind
+[05Nov2025 16:43:32.240] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: duh lost connection: Disconnected
+[05Nov2025 16:43:32.243] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: duh left the game
+[05Nov2025 16:45:30.638] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: qu1xxxy was shot by Skeleton
+[05Nov2025 16:50:46.479] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/11888, l='ServerLevel[world]', x=425.74, y=93.25, z=150.58] died, message: 'Villager was slain by Zombie'
+[05Nov2025 16:51:39.034] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: qu1xxxy lost connection: Disconnected
+[05Nov2025 16:51:39.038] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: qu1xxxy left the game
+[05Nov2025 16:51:49.654] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: qu1xxxy[/92.63.76.75:50945] logged in with entity id 13195 at (371.6508898343858, 64.0, 53.93740861386774)
+[05Nov2025 16:51:49.658] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: qu1xxxy joined the game
+[05Nov2025 17:02:14.632] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: qu1xxxy was impaled by Drowned
+[05Nov2025 17:03:50.630] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: qu1xxxy lost connection: Disconnected
+[05Nov2025 17:03:50.633] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: qu1xxxy left the game
+[05Nov2025 17:03:51.699] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: qu1xxxy[/92.63.76.75:50980] logged in with entity id 16587 at (340.3591791158204, 62.0, -48.43122778300259)
+[05Nov2025 17:03:51.703] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: qu1xxxy joined the game
+[05Nov2025 17:33:45.833] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: qu1xxxy lost connection: Disconnected
+[05Nov2025 17:33:45.836] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: qu1xxxy left the game
+[05Nov2025 17:33:48.047] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: qu1xxxy[/91.79.216.61:16896] logged in with entity id 20249 at (363.76249998807907, 60.0, -10.303889587812142)
+[05Nov2025 17:33:48.051] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: qu1xxxy joined the game
+[05Nov2025 17:38:48.531] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: qu1xxxy lost connection: Disconnected
+[05Nov2025 17:38:48.534] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: qu1xxxy left the game
+[05Nov2025 17:39:48.512] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Server empty for 60 seconds, pausing
+[05Nov2025 17:51:23.453] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: qu1xxxy[/91.79.216.61:57830] logged in with entity id 21009 at (363.76249998807907, 60.0, -10.303889587812142)
+[05Nov2025 17:51:23.463] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: qu1xxxy joined the game
+[05Nov2025 17:56:22.431] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: qu1xxxy lost connection: Disconnected
+[05Nov2025 17:56:22.433] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: qu1xxxy left the game
+[05Nov2025 17:57:22.412] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Server empty for 60 seconds, pausing
+[05Nov2025 18:08:55.038] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[05Nov2025 18:08:55.067] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[05Nov2025 18:08:55.073] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[05Nov2025 18:08:55.077] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[05Nov2025 18:08:55.080] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[05Nov2025 18:08:55.134] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[05Nov2025 18:08:55.141] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[05Nov2025 18:08:55.198] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[05Nov2025 18:08:55.200] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[05Nov2025 18:08:55.203] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[05Nov2025 18:08:55.205] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
