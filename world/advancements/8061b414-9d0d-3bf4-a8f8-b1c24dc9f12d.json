@@ -9,6 +9,7 @@
     "criteria": {
       "minecraft:badlands": "2025-11-04 20:55:03 +0300",
       "minecraft:savanna_plateau": "2025-11-04 18:38:16 +0300",
+      "minecraft:snowy_slopes": "2025-11-06 01:54:05 +0300",
       "minecraft:stony_peaks": "2025-11-04 20:21:30 +0300",
       "minecraft:forest": "2025-11-04 18:48:31 +0300",
       "minecraft:sparse_jungle": "2025-11-04 23:47:53 +0300",
@@ -20,6 +21,8 @@
       "minecraft:desert": "2025-11-04 23:52:10 +0300",
       "minecraft:deep_dark": "2025-11-04 21:38:19 +0300",
       "minecraft:jungle": "2025-11-04 21:40:27 +0300",
+      "minecraft:cherry_grove": "2025-11-05 22:13:04 +0300",
+      "minecraft:meadow": "2025-11-06 01:01:33 +0300",
       "minecraft:savanna": "2025-11-04 18:32:18 +0300",
       "minecraft:wooded_badlands": "2025-11-04 23:50:14 +0300",
       "minecraft:bamboo_jungle": "2025-11-04 23:49:22 +0300",
@@ -95,6 +98,7 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:cave_spider": "2025-11-05 22:23:50 +0300",
       "minecraft:skeleton": "2025-11-04 18:39:49 +0300",
       "minecraft:piglin": "2025-11-04 22:49:23 +0300",
       "minecraft:witch": "2025-11-04 21:49:24 +0300",
@@ -393,9 +397,11 @@
       "bread": "2025-11-04 21:49:56 +0300",
       "rotten_flesh": "2025-11-04 19:15:02 +0300",
       "cooked_mutton": "2025-11-04 19:19:56 +0300",
+      "glow_berries": "2025-11-05 22:22:34 +0300",
       "salmon": "2025-11-04 18:55:50 +0300",
       "cooked_beef": "2025-11-04 19:13:20 +0300",
       "beef": "2025-11-04 19:02:03 +0300",
+      "baked_potato": "2025-11-05 20:33:50 +0300",
       "melon_slice": "2025-11-04 23:41:37 +0300",
       "porkchop": "2025-11-04 18:45:13 +0300",
       "tropical_fish": "2025-11-05 19:42:42 +0300",
@@ -1683,7 +1689,8 @@
   "minecraft:husbandry/whole_pack": {
     "criteria": {
       "minecraft:spotted": "2025-11-04 21:07:31 +0300",
-      "minecraft:rusty": "2025-11-04 23:49:12 +0300"
+      "minecraft:rusty": "2025-11-04 23:49:12 +0300",
+      "minecraft:woods": "2025-11-06 01:23:30 +0300"
     },
     "done": false
   },
@@ -2781,18 +2788,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/combat/magenta_harness": {
-    "criteria": {
-      "has_dried_ghast": "2025-11-05 19:14:57 +0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/yellow_harness": {
-    "criteria": {
-      "has_dried_ghast": "2025-11-05 19:14:57 +0300"
-    },
-    "done": true
-  },
   "minecraft:recipes/misc/gold_ingot_from_nuggets": {
     "criteria": {
       "has_gold_nugget": "2025-11-05 19:07:04 +0300"
@@ -2802,6 +2797,18 @@
   "minecraft:recipes/brewing/golden_carrot": {
     "criteria": {
       "has_gold_nugget": "2025-11-05 19:07:04 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/magenta_harness": {
+    "criteria": {
+      "has_dried_ghast": "2025-11-05 19:14:57 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/yellow_harness": {
+    "criteria": {
+      "has_dried_ghast": "2025-11-05 19:14:57 +0300"
     },
     "done": true
   },
@@ -2892,6 +2899,174 @@
   "minecraft:recipes/misc/iron_ingot_from_nuggets": {
     "criteria": {
       "has_iron_nugget": "2025-11-05 19:29:54 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blast_furnace": {
+    "criteria": {
+      "has_smooth_stone": "2025-11-05 20:05:05 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_stone_slab": {
+    "criteria": {
+      "has_smooth_stone": "2025-11-05 20:05:05 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_stone_slab_from_smooth_stone_stonecutting": {
+    "criteria": {
+      "has_smooth_stone": "2025-11-05 20:05:05 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_scrap_from_blasting": {
+    "criteria": {
+      "has_ancient_debris": "2025-11-05 20:51:13 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_scrap": {
+    "criteria": {
+      "has_ancient_debris": "2025-11-05 20:51:13 +0300"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_ancient_debris": {
+    "criteria": {
+      "ancient_debris": "2025-11-05 20:51:13 +0300"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_mob_near_sculk_catalyst": {
+    "criteria": {
+      "kill_mob_near_sculk_catalyst": "2025-11-05 21:43:38 +0300"
+    },
+    "done": true
+  },
+  "minecraft:adventure/avoid_vibration": {
+    "criteria": {
+      "avoid_vibration": "2025-11-05 21:45:53 +0300"
+    },
+    "done": true
+  },
+  "minecraft:nether/netherite_armor": {
+    "criteria": {
+      "netherite_armor": "2025-11-05 22:54:19 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/gray_bed": {
+    "criteria": {
+      "has_gray_wool": "2025-11-06 00:16:36 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/dried_kelp_from_smelting": {
+    "criteria": {
+      "has_kelp": "2025-11-06 01:29:47 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/dried_kelp_from_campfire_cooking": {
+    "criteria": {
+      "has_kelp": "2025-11-06 01:29:47 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/glass": {
+    "criteria": {
+      "has_smelts_to_glass": "2025-11-06 01:16:41 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/snow": {
+    "criteria": {
+      "has_snowball": "2025-11-06 01:54:04 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_carpet": {
+    "criteria": {
+      "has_black_wool": "2025-11-06 01:02:52 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/composter": {
+    "criteria": {
+      "has_wood_slab": "2025-11-06 01:24:43 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cherry_planks": {
+    "criteria": {
+      "has_log": "2025-11-06 00:17:13 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_banner": {
+    "criteria": {
+      "has_black_wool": "2025-11-06 01:02:52 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/gray_carpet": {
+    "criteria": {
+      "has_gray_wool": "2025-11-06 00:16:36 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cherry_wood": {
+    "criteria": {
+      "has_log": "2025-11-06 00:17:13 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/dried_kelp_from_smoking": {
+    "criteria": {
+      "has_kelp": "2025-11-06 01:29:47 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_bed": {
+    "criteria": {
+      "has_black_wool": "2025-11-06 01:02:52 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_gray_bed": {
+    "criteria": {
+      "has_light_gray_wool": "2025-11-06 01:02:02 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sandstone": {
+    "criteria": {
+      "has_sand": "2025-11-06 01:16:41 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/gray_banner": {
+    "criteria": {
+      "has_gray_wool": "2025-11-06 00:16:36 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_gray_banner": {
+    "criteria": {
+      "has_light_gray_wool": "2025-11-06 01:02:02 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_gray_carpet": {
+    "criteria": {
+      "has_light_gray_wool": "2025-11-06 01:02:02 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/snow_block": {
+    "criteria": {
+      "has_snowball": "2025-11-06 01:54:04 +0300"
     },
     "done": true
   },

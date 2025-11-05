@@ -1,190 +1,84 @@
-[05Nov2025 18:35:20.055] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forge_server, nogui]
-[05Nov2025 18:35:20.061] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Oracle Corporation Java HotSpot(TM) 64-Bit Server VM 25.0.1+8-LTS-27
-[05Nov2025 18:35:20.061] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.2.4 starting: java version 25.0.1 by Oracle Corporation; OS Windows 10 arch amd64 version 10.0
-[05Nov2025 18:35:20.231] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forge_server
-[05Nov2025 18:35:20.389] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=jar:file:///C:/Users/nerboros/forge-1.21.10/libraries/org/spongepowered/mixin/0.8.7/mixin-0.8.7.jar!/ Service=ModLauncher Env=SERVER
-[05Nov2025 18:35:20.836] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
-[05Nov2025 18:35:21.248] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forge_server' with arguments [nogui]
-[05Nov2025 18:35:32.975] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 60.0.15, for MC 1.21.10 with MCP 20251007.101210
-[05Nov2025 18:35:32.980] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v60.0.15 Initialized
-[05Nov2025 18:35:33.002] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Opening jdk.naming.dns/com.sun.jndi.dns to java.naming
-[05Nov2025 18:35:33.743] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[05Nov2025 18:35:34.606] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: BETA Current: 60.0.15 Target: 60.0.15
-[05Nov2025 18:35:35.221] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[05Nov2025 18:35:39.704] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1461 recipes
-[05Nov2025 18:35:39.735] [main/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1574 advancements
-[05Nov2025 18:35:40.027] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.21.10
-[05Nov2025 18:35:40.028] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[05Nov2025 18:35:40.029] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[05Nov2025 18:35:40.030] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[05Nov2025 18:35:40.256] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[05Nov2025 18:35:40.346] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using default channel type
-[05Nov2025 18:35:40.435] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[05Nov2025 18:35:40.437] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[05Nov2025 18:35:40.438] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[05Nov2025 18:35:40.439] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[05Nov2025 18:35:40.491] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[05Nov2025 18:35:41.019] [Server thread/INFO] [net.minecraft.server.level.progress.LoggingLevelLoadListener/]: Loading 0 persistent chunks...
-[05Nov2025 18:35:41.023] [Server thread/INFO] [net.minecraft.server.level.progress.LoggingLevelLoadListener/]: Preparing spawn area: 100%
-[05Nov2025 18:35:41.036] [Server thread/INFO] [net.minecraft.server.level.progress.LoggingLevelLoadListener/]: Time elapsed: 18 ms
-[05Nov2025 18:35:41.038] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (0.575s)! For help, type "help"
-[05Nov2025 18:35:41.144] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[05Nov2025 18:35:55.292] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: _LightFly_[/176.119.22.51:32515] logged in with entity id 9 at (-1122.5134975391054, -45.0, 1495.980478967312)
-[05Nov2025 18:35:55.377] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: _LightFly_ joined the game
-[05Nov2025 18:35:55.623] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: duh[/127.0.0.1:52528] logged in with entity id 10 at (-1122.5, -45.0, 1493.5)
-[05Nov2025 18:35:55.635] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: duh joined the game
-[05Nov2025 18:35:57.613] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2066ms or 41 ticks behind
-[05Nov2025 18:36:15.326] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2730ms or 54 ticks behind
-[05Nov2025 18:36:57.261] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: _LightFly_ lost connection: Disconnected
-[05Nov2025 18:36:57.263] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: _LightFly_ left the game
-[05Nov2025 18:38:25.230] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: _LightFly_[/176.119.22.51:23401] logged in with entity id 348 at (-1123.5532172886478, -45.0, 1496.3874580125162)
-[05Nov2025 18:38:25.239] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: _LightFly_ joined the game
-[05Nov2025 18:38:40.610] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: duh tried to swim in lava
-[05Nov2025 18:38:41.269] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: _LightFly_ lost connection: Disconnected
-[05Nov2025 18:38:41.272] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: _LightFly_ left the game
-[05Nov2025 18:39:14.790] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: qu1xxxy[/91.79.216.61:28729] logged in with entity id 673 at (363.76249998807907, 60.0, -10.303889587812142)
-[05Nov2025 18:39:14.798] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: qu1xxxy joined the game
-[05Nov2025 18:39:19.225] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2478ms or 49 ticks behind
-[05Nov2025 18:39:45.379] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 11182ms or 223 ticks behind
-[05Nov2025 18:40:30.746] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/773, l='ServerLevel[world]', x=444.39, y=73.00, z=104.70] died, message: 'Villager was slain by Zombie'
-[05Nov2025 18:41:05.112] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: _LightFly_[/176.119.22.51:23415] logged in with entity id 1891 at (-1123.6121872270885, -45.0, 1496.3946574549293)
-[05Nov2025 18:41:05.119] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: _LightFly_ joined the game
-[05Nov2025 18:44:02.206] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2209ms or 44 ticks behind
-[05Nov2025 18:44:08.379] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: _LightFly_ lost connection: Disconnected
-[05Nov2025 18:44:08.383] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: _LightFly_ left the game
-[05Nov2025 18:44:37.803] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2106ms or 42 ticks behind
-[05Nov2025 18:47:09.169] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2072ms or 41 ticks behind
-[05Nov2025 18:47:28.772] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4625ms or 92 ticks behind
-[05Nov2025 18:47:33.323] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: _LightFly_[/176.119.22.51:23344] logged in with entity id 4782 at (-150.3235676074947, 50.0, 181.57649449266856)
-[05Nov2025 18:47:33.335] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: _LightFly_ joined the game
-[05Nov2025 18:47:33.828] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: _LightFly_ lost connection: Disconnected
-[05Nov2025 18:47:33.831] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: _LightFly_ left the game
-[05Nov2025 18:47:35.609] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: _LightFly_[/176.119.22.51:34115] logged in with entity id 4798 at (-150.3235676074947, 50.0, 181.57649449266856)
-[05Nov2025 18:47:35.617] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: _LightFly_ joined the game
-[05Nov2025 18:47:46.069] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2323ms or 46 ticks behind
-[05Nov2025 18:48:07.686] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: _LightFly_ lost connection: Disconnected
-[05Nov2025 18:48:07.688] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: _LightFly_ left the game
-[05Nov2025 18:49:18.222] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: _LightFly_[/176.119.22.51:23324] logged in with entity id 5376 at (-145.06493398477159, 51.0, 182.77660134329872)
-[05Nov2025 18:49:18.231] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: _LightFly_ joined the game
-[05Nov2025 18:49:19.997] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2000ms or 40 ticks behind
-[05Nov2025 18:49:31.249] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: _LightFly_ lost connection: Disconnected
-[05Nov2025 18:49:31.254] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: _LightFly_ left the game
-[05Nov2025 18:49:45.800] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2004ms or 40 ticks behind
-[05Nov2025 18:50:08.949] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2002ms or 40 ticks behind
-[05Nov2025 18:50:29.190] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: _LightFly_[/176.119.22.51:14222] logged in with entity id 5859 at (-145.06493398477159, 51.0, 182.77660134329872)
-[05Nov2025 18:50:29.198] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: _LightFly_ joined the game
-[05Nov2025 18:50:29.210] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5263ms or 105 ticks behind
-[05Nov2025 18:50:47.516] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3319ms or 66 ticks behind
-[05Nov2025 18:50:50.085] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: _LightFly_ lost connection: Disconnected
-[05Nov2025 18:50:50.089] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: _LightFly_ left the game
-[05Nov2025 18:51:05.340] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2843ms or 56 ticks behind
-[05Nov2025 18:51:30.205] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2008ms or 40 ticks behind
-[05Nov2025 18:51:47.237] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2040ms or 40 ticks behind
-[05Nov2025 18:52:46.249] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2002ms or 40 ticks behind
-[05Nov2025 18:55:46.983] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: _LightFly_[/176.119.22.51:32518] logged in with entity id 8029 at (-145.06493398477159, 51.0, 182.77660134329872)
-[05Nov2025 18:55:46.990] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: _LightFly_ joined the game
-[05Nov2025 18:56:09.335] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <duh> починил?
-[05Nov2025 18:56:10.325] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2028ms or 40 ticks behind
-[05Nov2025 18:56:27.829] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2532ms or 50 ticks behind
-[05Nov2025 18:56:46.864] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4067ms or 81 ticks behind
-[05Nov2025 18:57:00.064] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: _LightFly_ lost connection: Disconnected
-[05Nov2025 18:57:00.067] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: _LightFly_ left the game
-[05Nov2025 18:57:04.935] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3088ms or 61 ticks behind
-[05Nov2025 18:57:26.890] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2043ms or 40 ticks behind
-[05Nov2025 18:57:44.946] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3100ms or 62 ticks behind
-[05Nov2025 18:58:03.698] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3751ms or 75 ticks behind
-[05Nov2025 18:58:21.089] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2392ms or 47 ticks behind
-[05Nov2025 19:03:07.167] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: _LightFly_[/176.119.22.51:33306] logged in with entity id 10977 at (-1119.7456886854009, -44.0, 1500.5)
-[05Nov2025 19:03:07.180] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: _LightFly_ joined the game
-[05Nov2025 19:03:14.081] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2035ms or 40 ticks behind
-[05Nov2025 19:03:35.242] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 6196ms or 123 ticks behind
-[05Nov2025 19:03:56.568] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 6371ms or 127 ticks behind
-[05Nov2025 19:04:18.688] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 7141ms or 142 ticks behind
-[05Nov2025 19:04:39.083] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5436ms or 108 ticks behind
-[05Nov2025 19:05:03.091] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 9044ms or 180 ticks behind
-[05Nov2025 19:05:26.489] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 8443ms or 168 ticks behind
-[05Nov2025 19:05:46.160] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4714ms or 94 ticks behind
-[05Nov2025 19:06:08.707] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 7560ms or 151 ticks behind
-[05Nov2025 19:06:30.393] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 6696ms or 133 ticks behind
-[05Nov2025 19:06:50.354] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5007ms or 100 ticks behind
-[05Nov2025 19:07:10.877] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5531ms or 110 ticks behind
-[05Nov2025 19:07:30.570] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4723ms or 94 ticks behind
-[05Nov2025 19:07:55.370] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 9824ms or 196 ticks behind
-[05Nov2025 19:08:14.859] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4512ms or 90 ticks behind
-[05Nov2025 19:08:33.791] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3944ms or 78 ticks behind
-[05Nov2025 19:08:52.981] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4234ms or 84 ticks behind
-[05Nov2025 19:10:41.725] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2028ms or 40 ticks behind
-[05Nov2025 19:11:57.550] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2004ms or 40 ticks behind
-[05Nov2025 19:12:15.532] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2985ms or 59 ticks behind
-[05Nov2025 19:12:34.679] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4182ms or 83 ticks behind
-[05Nov2025 19:12:54.929] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2032ms or 40 ticks behind
-[05Nov2025 19:13:13.333] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3437ms or 68 ticks behind
-[05Nov2025 19:13:36.426] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2029ms or 40 ticks behind
-[05Nov2025 19:14:00.851] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2554ms or 51 ticks behind
-[05Nov2025 19:14:18.323] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2476ms or 49 ticks behind
-[05Nov2025 19:15:31.051] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2103ms or 42 ticks behind
-[05Nov2025 19:15:50.120] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4074ms or 81 ticks behind
-[05Nov2025 19:16:07.566] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2470ms or 49 ticks behind
-[05Nov2025 19:16:26.498] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2201ms or 44 ticks behind
-[05Nov2025 19:16:56.650] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2004ms or 40 ticks behind
-[05Nov2025 19:16:59.307] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-746, y=47, z=268} BlockPos{x=-744, y=47, z=268}
-[05Nov2025 19:17:38.619] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2023ms or 40 ticks behind
-[05Nov2025 19:23:04.053] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2006ms or 40 ticks behind
-[05Nov2025 19:23:46.487] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 10790ms or 215 ticks behind
-[05Nov2025 19:24:24.430] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 22983ms or 459 ticks behind
-[05Nov2025 19:24:45.989] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 6592ms or 131 ticks behind
-[05Nov2025 19:25:09.955] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 9009ms or 180 ticks behind
-[05Nov2025 19:25:28.023] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3076ms or 61 ticks behind
-[05Nov2025 19:26:03.197] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2099ms or 41 ticks behind
-[05Nov2025 19:26:26.473] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 8326ms or 166 ticks behind
-[05Nov2025 19:26:58.702] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2005ms or 40 ticks behind
-[05Nov2025 19:27:28.499] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2052ms or 41 ticks behind
-[05Nov2025 19:27:48.139] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4643ms or 92 ticks behind
-[05Nov2025 19:28:41.814] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2067ms or 41 ticks behind
-[05Nov2025 19:29:12.788] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: duh was slain by _LightFly_
-[05Nov2025 19:29:20.700] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2003ms or 40 ticks behind
-[05Nov2025 19:29:39.187] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3491ms or 69 ticks behind
-[05Nov2025 19:29:58.030] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3883ms or 77 ticks behind
-[05Nov2025 19:30:17.823] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4826ms or 96 ticks behind
-[05Nov2025 19:30:41.363] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 8566ms or 171 ticks behind
-[05Nov2025 19:31:05.367] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 9021ms or 180 ticks behind
-[05Nov2025 19:31:25.735] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5388ms or 107 ticks behind
-[05Nov2025 19:31:45.367] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4670ms or 93 ticks behind
-[05Nov2025 19:32:05.572] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5226ms or 104 ticks behind
-[05Nov2025 19:32:27.273] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 6726ms or 134 ticks behind
-[05Nov2025 19:32:57.764] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 15517ms or 310 ticks behind
-[05Nov2025 19:33:20.335] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 7589ms or 151 ticks behind
-[05Nov2025 19:33:42.976] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 7679ms or 153 ticks behind
-[05Nov2025 19:34:02.994] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5047ms or 100 ticks behind
-[05Nov2025 19:34:23.190] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5243ms or 104 ticks behind
-[05Nov2025 19:34:36.458] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: qu1xxxy has made the advancement [Cover Me with Diamonds]
-[05Nov2025 19:34:47.106] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 8958ms or 179 ticks behind
-[05Nov2025 19:35:09.759] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 7662ms or 153 ticks behind
-[05Nov2025 19:35:33.427] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 8680ms or 173 ticks behind
-[05Nov2025 19:35:58.652] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 10255ms or 205 ticks behind
-[05Nov2025 19:36:23.861] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2014ms or 40 ticks behind
-[05Nov2025 19:40:01.731] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <qu1xxxy> -6500 0
-[05Nov2025 19:40:17.790] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <qu1xxxy> ц
-[05Nov2025 19:41:50.442] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: duh has made the advancement [Sneak 100]
-[05Nov2025 19:42:48.397] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-6459, y=-47, z=2083} BlockPos{x=-6459, y=-46, z=2084}
-[05Nov2025 19:43:09.860] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-6446, y=-49, z=2074} BlockPos{x=-6448, y=-50, z=2072}
-[05Nov2025 19:43:12.066] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-6444, y=-49, z=2073} BlockPos{x=-6444, y=-50, z=2072}
-[05Nov2025 19:43:12.151] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2004ms or 40 ticks behind
-[05Nov2025 19:44:10.642] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=23, y=70, z=195} BlockPos{x=19, y=66, z=196}
-[05Nov2025 19:45:55.138] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: duh lost connection: Disconnected
-[05Nov2025 19:45:55.142] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: duh left the game
-[05Nov2025 19:45:56.726] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: _LightFly_ lost connection: Disconnected
-[05Nov2025 19:45:56.729] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: _LightFly_ left the game
-[05Nov2025 19:46:09.678] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
-[05Nov2025 19:46:09.698] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[05Nov2025 19:46:09.701] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[05Nov2025 19:46:09.726] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: qu1xxxy lost connection: Server closed
-[05Nov2025 19:46:09.728] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: qu1xxxy left the game
-[05Nov2025 19:46:09.745] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[05Nov2025 19:46:09.842] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[05Nov2025 19:46:09.871] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[05Nov2025 19:46:09.881] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[05Nov2025 19:46:10.006] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[05Nov2025 19:46:10.008] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[05Nov2025 19:46:10.010] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[05Nov2025 19:46:10.011] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[06нояб.2025 00:03:36.665] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: _LightFly_ moved too quickly! -7.36084851162741,0.756759288177264,-6.95594789714437
+[06нояб.2025 00:03:36.683] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: qu1xxxy moved too quickly! 5.785830047761237,0.37870315946079813,8.440495667832458
+[06нояб.2025 00:03:36.688] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 83428ms or 1668 ticks behind
+[06нояб.2025 00:03:40.676] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: _LightFly_ was kicked for floating too long!
+[06нояб.2025 00:03:40.726] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: _LightFly_ lost connection: Flying is not enabled on this server
+[06нояб.2025 00:03:40.726] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: _LightFly_ left the game
+[06нояб.2025 00:03:55.936] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: qu1xxxy lost connection: Disconnected
+[06нояб.2025 00:03:55.937] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: qu1xxxy left the game
+[06нояб.2025 00:03:55.927] [Netty Server IO #16/WARN] [net.minecraft.network.PacketSendListener/]: Failed to deliver packet, sending fallback clientbound/minecraft:system_chat
+java.io.IOException: Connection reset by peer
+	at java.base/sun.nio.ch.SocketDispatcher.writev0(Native Method) ~[?:?]
+	at java.base/sun.nio.ch.SocketDispatcher.writev(SocketDispatcher.java:58) ~[?:?]
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:227) ~[?:?]
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:158) ~[?:?]
+	at java.base/sun.nio.ch.SocketChannelImpl.implWrite(SocketChannelImpl.java:593) ~[?:?]
+	at java.base/sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:627) ~[?:?]
+	at SECURE-BOOTSTRAP/io.netty.transport@4.1.118.Final/io.netty.channel.socket.nio.NioSocketChannel.doWrite(NioSocketChannel.java:429) ~[netty-transport-4.1.118.Final.jar!/:4.1.118.Final]
+	at SECURE-BOOTSTRAP/io.netty.transport@4.1.118.Final/io.netty.channel.AbstractChannel$AbstractUnsafe.flush0(AbstractChannel.java:929) [netty-transport-4.1.118.Final.jar!/:4.1.118.Final]
+	at SECURE-BOOTSTRAP/io.netty.transport@4.1.118.Final/io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.forceFlush(AbstractNioChannel.java:366) [netty-transport-4.1.118.Final.jar!/:4.1.118.Final]
+	at SECURE-BOOTSTRAP/io.netty.transport@4.1.118.Final/io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:790) [netty-transport-4.1.118.Final.jar!/:4.1.118.Final]
+	at SECURE-BOOTSTRAP/io.netty.transport@4.1.118.Final/io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:732) [netty-transport-4.1.118.Final.jar!/:4.1.118.Final]
+	at SECURE-BOOTSTRAP/io.netty.transport@4.1.118.Final/io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:658) [netty-transport-4.1.118.Final.jar!/:4.1.118.Final]
+	at SECURE-BOOTSTRAP/io.netty.transport@4.1.118.Final/io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) [netty-transport-4.1.118.Final.jar!/:4.1.118.Final]
+	at SECURE-BOOTSTRAP/io.netty.common@4.1.118.Final/io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:998) [netty-common-4.1.118.Final.jar!/:4.1.118.Final]
+	at SECURE-BOOTSTRAP/io.netty.common@4.1.118.Final/io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.118.Final.jar!/:4.1.118.Final]
+	at java.base/java.lang.Thread.run(Thread.java:1447) [?:?]
+[06нояб.2025 00:04:03.971] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: qu1xxxy[/92.63.76.75:52733] logged in with entity id 138668 at (357.93173021236873, 64.5, 62.80807954658984)
+[06нояб.2025 00:04:03.983] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: qu1xxxy joined the game
+[06нояб.2025 00:09:15.202] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: duh[/192.168.0.4:62096] logged in with entity id 140272 at (-6490.824800666205, -8.0, 2063.3006639528367)
+[06нояб.2025 00:09:15.202] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: duh joined the game
+[06нояб.2025 00:14:42.083] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Incorrect argument for command
+[06нояб.2025 00:14:42.086] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tp duh \qu1xxxy<--[HERE]
+[06нояб.2025 00:14:47.134] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teleported duh to qu1xxxy
+[06нояб.2025 00:15:13.715] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: _LightFly_[/176.119.22.51:14229] logged in with entity id 142309 at (-6647.880040462363, 89.25220334025373, 1838.530124889907)
+[06нояб.2025 00:15:13.718] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: _LightFly_ joined the game
+[06нояб.2025 00:21:22.290] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teleported duh to -6499.500000, -8.000000, 2060.500000
+[06нояб.2025 00:22:24.635] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teleported _LightFly_ to duh
+[06нояб.2025 00:30:27.832] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Farmer'/147971, l='ServerLevel[world]', x=356.72, y=67.50, z=77.70] died, message: 'Farmer was impaled by Drowned'
+[06нояб.2025 00:31:24.086] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Shepherd'/147976, l='ServerLevel[world]', x=381.86, y=63.00, z=13.74] died, message: 'Shepherd was impaled by Drowned'
+[06нояб.2025 00:31:40.117] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/147645, l='ServerLevel[world]', x=368.39, y=62.38, z=-10.40] died, message: 'Villager tried to swim in lava to escape Zombie Villager'
+[06нояб.2025 00:31:43.780] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/147644, l='ServerLevel[world]', x=366.25, y=64.00, z=-1.90] died, message: 'Villager was impaled by Drowned'
+[06нояб.2025 00:34:38.531] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: qu1xxxy lost connection: Disconnected
+[06нояб.2025 00:34:38.532] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: qu1xxxy left the game
+[06нояб.2025 00:41:27.166] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/151201, l='ServerLevel[world]', x=-6418.49, y=64.94, z=1851.70] died, message: 'Villager was burned to a crisp while fighting Zombie'
+[06нояб.2025 01:36:03.675] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: duh was blown up by Creeper
+[06нояб.2025 01:36:25.728] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teleported duh to _LightFly_
+[06нояб.2025 01:38:10.373] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: _LightFly_ was killed by Witch using magic
+[06нояб.2025 01:51:36.961] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: duh has made the advancement [Stay Hydrated!]
+[06нояб.2025 01:51:50.618] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <_LightFly_> Снег ?
+[06нояб.2025 01:54:11.225] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-6851, y=117, z=2034} BlockPos{x=-6848, y=117, z=2036}
+[06нояб.2025 01:54:11.276] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-6851, y=117, z=2034} BlockPos{x=-6848, y=117, z=2036}
+[06нояб.2025 01:54:11.325] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-6851, y=117, z=2034} BlockPos{x=-6848, y=117, z=2036}
+[06нояб.2025 01:54:11.375] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-6852, y=117, z=2034} BlockPos{x=-6848, y=117, z=2036}
+[06нояб.2025 01:54:11.426] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-6852, y=117, z=2034} BlockPos{x=-6848, y=117, z=2036}
+[06нояб.2025 01:54:11.476] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-6852, y=117, z=2034} BlockPos{x=-6848, y=117, z=2036}
+[06нояб.2025 01:54:11.526] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-6852, y=117, z=2034} BlockPos{x=-6848, y=117, z=2036}
+[06нояб.2025 01:54:11.610] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-6852, y=117, z=2034} BlockPos{x=-6848, y=117, z=2036}
+[06нояб.2025 01:54:11.630] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-6852, y=117, z=2034} BlockPos{x=-6848, y=117, z=2036}
+[06нояб.2025 01:54:11.677] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-6852, y=117, z=2034} BlockPos{x=-6848, y=117, z=2036}
+[06нояб.2025 01:54:11.760] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-6852, y=117, z=2034} BlockPos{x=-6848, y=117, z=2036}
+[06нояб.2025 01:54:11.779] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-6852, y=117, z=2034} BlockPos{x=-6848, y=117, z=2036}
+[06нояб.2025 01:54:11.826] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-6852, y=117, z=2034} BlockPos{x=-6848, y=117, z=2036}
+[06нояб.2025 01:54:13.111] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-6852, y=112, z=2033} BlockPos{x=-6853, y=112, z=2033}
+[06нояб.2025 01:54:17.228] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-6852, y=111, z=2030} BlockPos{x=-6852, y=110, z=2031}
+[06нояб.2025 01:54:20.026] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-6853, y=109, z=2030} BlockPos{x=-6853, y=109, z=2028}
+[06нояб.2025 01:54:23.027] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-6855, y=114, z=2032} BlockPos{x=-6855, y=113, z=2032}
+[06нояб.2025 01:55:19.610] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: duh has made the advancement [A Seedy Place]
+[06нояб.2025 01:59:25.117] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: _LightFly_ lost connection: Disconnected
+[06нояб.2025 01:59:25.119] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: _LightFly_ left the game
+[06нояб.2025 02:25:16.114] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Nitwit'/186433, l='ServerLevel[world]', x=-6455.53, y=18.00, z=1827.70] died, message: 'Nitwit hit the ground too hard'
+[06нояб.2025 02:30:20.468] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: duh lost connection: Disconnected
+[06нояб.2025 02:30:20.469] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: duh left the game
+[06нояб.2025 02:31:20.460] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Server empty for 60 seconds, pausing
+[06нояб.2025 02:32:08.310] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[06нояб.2025 02:32:08.375] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[06нояб.2025 02:32:08.376] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[06нояб.2025 02:32:08.377] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[06нояб.2025 02:32:08.378] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[06нояб.2025 02:32:08.430] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[06нояб.2025 02:32:08.436] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[06нояб.2025 02:32:08.486] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[06нояб.2025 02:32:08.487] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[06нояб.2025 02:32:08.488] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[06нояб.2025 02:32:08.489] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
