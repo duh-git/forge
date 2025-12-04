@@ -1,419 +1,135 @@
-[10Nov2025 16:47:52.624] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forge_server, nogui]
-[10Nov2025 16:47:52.635] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Oracle Corporation Java HotSpot(TM) 64-Bit Server VM 25.0.1+8-LTS-27
-[10Nov2025 16:47:52.636] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.2.4 starting: java version 25.0.1 by Oracle Corporation; OS Windows 10 arch amd64 version 10.0
-[10Nov2025 16:47:52.817] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forge_server
-[10Nov2025 16:47:53.007] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=jar:file:///C:/Users/nerboros/forge-1.21.10/libraries/org/spongepowered/mixin/0.8.7/mixin-0.8.7.jar!/ Service=ModLauncher Env=SERVER
-[10Nov2025 16:47:53.437] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
-[10Nov2025 16:47:53.835] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forge_server' with arguments [nogui]
-[10Nov2025 16:48:04.817] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 60.0.15, for MC 1.21.10 with MCP 20251007.101210
-[10Nov2025 16:48:04.820] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v60.0.15 Initialized
-[10Nov2025 16:48:04.837] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Opening jdk.naming.dns/com.sun.jndi.dns to java.naming
-[10Nov2025 16:48:05.503] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[10Nov2025 16:48:06.321] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: BETA_OUTDATED Current: 60.0.15 Target: 60.0.17
-[10Nov2025 16:48:06.860] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[10Nov2025 16:48:10.880] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1461 recipes
-[10Nov2025 16:48:10.907] [main/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1574 advancements
-[10Nov2025 16:48:11.135] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.21.10
-[10Nov2025 16:48:11.136] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[10Nov2025 16:48:11.137] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[10Nov2025 16:48:11.138] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[10Nov2025 16:48:11.319] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[10Nov2025 16:48:11.412] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using default channel type
-[10Nov2025 16:48:11.506] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[10Nov2025 16:48:11.508] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[10Nov2025 16:48:11.509] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[10Nov2025 16:48:11.510] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[10Nov2025 16:48:11.552] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[10Nov2025 16:48:11.995] [Server thread/INFO] [net.minecraft.server.level.progress.LoggingLevelLoadListener/]: Loading 0 persistent chunks...
-[10Nov2025 16:48:12.128] [Server thread/INFO] [net.minecraft.server.level.progress.LoggingLevelLoadListener/]: Preparing spawn area: 100%
-[10Nov2025 16:48:12.396] [Server thread/INFO] [net.minecraft.server.level.progress.LoggingLevelLoadListener/]: Time elapsed: 402 ms
-[10Nov2025 16:48:12.409] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (0.880s)! For help, type "help"
-[10Nov2025 16:48:12.461] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[10Nov2025 16:49:12.510] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Server empty for 60 seconds, pausing
-[10Nov2025 17:04:35.198] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: _LightFly_[/176.119.22.51:31078] logged in with entity id 51 at (-6516.505297920517, 93.0, 2031.3897890572814)
-[10Nov2025 17:04:35.236] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: _LightFly_ joined the game
-[10Nov2025 17:11:04.428] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: _LightFly_ lost connection: Disconnected
-[10Nov2025 17:11:04.434] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: _LightFly_ left the game
-[10Nov2025 17:12:04.410] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Server empty for 60 seconds, pausing
-[10Nov2025 18:11:27.185] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Rixrov[/92.100.50.129:51286] logged in with entity id 1353 at (313.4873312727553, 64.0, 62.69999998807907)
-[10Nov2025 18:11:27.197] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Rixrov joined the game
-[10Nov2025 18:17:03.235] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Rixrov was slain by Drowned
-[10Nov2025 18:31:00.554] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: You whisper to Rixrov: cho kak
-[10Nov2025 18:31:09.975] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Rixrov> норм
-[10Nov2025 18:31:55.033] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: duh[/127.0.0.1:56892] logged in with entity id 7903 at (-967.866298347512, 83.0, 235.57352475692457)
-[10Nov2025 18:31:55.051] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: duh joined the game
-[10Nov2025 18:32:00.306] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2046ms or 40 ticks behind
-[10Nov2025 18:33:23.748] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teleported duh to Rixrov
-[10Nov2025 18:33:32.326] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Rixrov> чо
-[10Nov2025 18:33:34.922] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Rixrov has made the advancement [Cover Me with Diamonds]
-[10Nov2025 18:33:37.659] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Rixrov> нихуя
-[10Nov2025 18:34:11.600] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <duh> чо мутиш
-[10Nov2025 18:34:36.559] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Rixrov> да вот думаю чо делать
-[10Nov2025 18:34:40.058] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <duh> где живешь
-[10Nov2025 18:34:51.879] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Rixrov> ну там в деревне пока в домике
-[10Nov2025 18:35:00.397] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Rixrov> вот место нашёл прикольное
-[10Nov2025 18:35:15.724] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <duh> пон пон
-[10Nov2025 18:35:17.936] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <duh> давай
-[10Nov2025 18:35:26.102] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <duh> продам кварц если чо
-[10Nov2025 18:35:47.122] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown or incomplete command. See below for error
-[10Nov2025 18:35:47.127] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: .ез вгр -6500 -8 2060<--[HERE]
-[10Nov2025 18:35:54.739] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teleported duh to -6499.500000, -8.000000, 2060.500000
-[10Nov2025 18:39:06.634] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <duh> лед не видел?
-[10Nov2025 18:39:11.408] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Rixrov> ну
-[10Nov2025 18:39:13.856] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Rixrov> нет
-[10Nov2025 18:42:13.379] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2118ms or 42 ticks behind
-[10Nov2025 18:42:33.928] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5568ms or 111 ticks behind
-[10Nov2025 18:49:54.437] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Rixrov moved too quickly! -4.442874139295441,1.0013359791121417,9.109011000128021
-[10Nov2025 18:49:54.477] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2117ms or 42 ticks behind
-[10Nov2025 18:54:50.702] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: _LightFly_[/176.119.22.51:42755] logged in with entity id 19028 at (-6373.801926783986, 64.0, 1988.9886250463915)
-[10Nov2025 18:54:50.722] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: _LightFly_ joined the game
-[10Nov2025 18:54:57.844] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <duh> иди нахуй
-[10Nov2025 18:56:29.148] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2038ms or 40 ticks behind
-[10Nov2025 18:56:50.961] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 6851ms or 137 ticks behind
-[10Nov2025 18:57:09.236] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3277ms or 65 ticks behind
-[10Nov2025 18:57:28.590] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: You whisper to Rixrov: у тя тож начачло подлагивать?
-[10Nov2025 18:57:44.296] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Rixrov> ну сейчас нет
-[10Nov2025 18:57:53.497] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Rixrov> до этого 1 раз было
-[10Nov2025 18:58:08.785] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2025ms or 40 ticks behind
-[10Nov2025 18:58:15.801] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <duh> отойду
-[10Nov2025 18:58:16.476] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Rixrov> Тимур чо делаешь
-[10Nov2025 18:58:18.427] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: duh lost connection: Disconnected
-[10Nov2025 18:58:18.450] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: duh left the game
-[10Nov2025 18:59:57.883] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: _LightFly_ lost connection: Disconnected
-[10Nov2025 18:59:57.888] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: _LightFly_ left the game
-[10Nov2025 19:10:52.030] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: _LightFly_[/176.119.22.51:16247] logged in with entity id 30562 at (-6373.801926783986, 64.0, 1988.9886250463915)
-[10Nov2025 19:10:52.036] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: _LightFly_ joined the game
-[10Nov2025 19:11:43.733] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: _LightFly_ lost connection: Disconnected
-[10Nov2025 19:11:43.736] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: _LightFly_ left the game
-[10Nov2025 19:15:08.729] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: _LightFly_[/176.119.22.51:16208] logged in with entity id 34587 at (-6373.801926783986, 64.0, 1988.9886250463915)
-[10Nov2025 19:15:08.735] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: _LightFly_ joined the game
-[10Nov2025 19:16:16.184] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: _LightFly_ lost connection: Disconnected
-[10Nov2025 19:16:16.187] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: _LightFly_ left the game
-[10Nov2025 19:16:46.810] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Oak Boat (vehicle of Rixrov) moved wrongly! 0.32742611675621447
-[10Nov2025 19:16:46.860] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Oak Boat (vehicle of Rixrov) moved wrongly! 0.367233127198233
-[10Nov2025 19:18:39.473] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: _LightFly_[/176.119.22.51:24031] logged in with entity id 37049 at (-6373.801926783986, 64.0, 1988.9886250463915)
-[10Nov2025 19:18:39.478] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: _LightFly_ joined the game
-[10Nov2025 19:22:31.384] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Rixrov> пздц нахуй так далеко
-[10Nov2025 19:22:36.955] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <_LightFly_> ?
-[10Nov2025 19:22:58.358] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Rixrov> бежал просто я от андрюхи
-[10Nov2025 19:23:08.057] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <_LightFly_> А
-[10Nov2025 19:23:20.657] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <_LightFly_> Ну это где выкопались там и построили
-[10Nov2025 19:23:30.937] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <_LightFly_> На поработай
-[10Nov2025 19:23:31.020] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Rixrov> понимаю
-[10Nov2025 19:23:37.560] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Rixrov has made the advancement [Fishy Business]
-[10Nov2025 19:24:33.425] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <_LightFly_> Дамир где
-[10Nov2025 19:24:37.486] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Rixrov> хз
-[10Nov2025 19:27:32.478] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Rixrov has made the advancement [Take Aim]
-[10Nov2025 19:29:07.077] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: You whisper to Rixrov: скоро буду
-[10Nov2025 19:29:07.080] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: You whisper to _LightFly_: скоро буду
-[10Nov2025 19:32:43.951] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: duh[/127.0.0.1:57568] logged in with entity id 40245 at (-767.9232659561217, 45.0, 304.5181557919154)
-[10Nov2025 19:32:43.960] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: duh joined the game
-[10Nov2025 19:34:00.735] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <duh> ало
-[10Nov2025 19:34:06.020] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Rixrov> ало
-[10Nov2025 19:34:09.301] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <duh> хуй
-[10Nov2025 19:34:24.291] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Rixrov> яйца
-[10Nov2025 19:35:02.982] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Rixrov was shot by Skeleton
-[10Nov2025 19:35:08.708] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <duh> пиздец вы
-[10Nov2025 19:35:22.783] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <duh> а как ты тут оказался
-[10Nov2025 19:35:43.126] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <duh> бля тут дыра
-[10Nov2025 19:36:11.188] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <duh> а как ты тут оказался
-[10Nov2025 19:36:23.090] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Rixrov> ну я вычислил
-[10Nov2025 19:36:30.354] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Rixrov> прикинул циферки
-[10Nov2025 19:36:34.980] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Rixrov> туда сюда
-[10Nov2025 19:36:46.128] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Rixrov> и добежал
-[10Nov2025 19:38:40.938] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Rixrov> прикольно
-[10Nov2025 19:41:15.501] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <duh> а как ты нашел
-[10Nov2025 19:41:36.153] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Rixrov> ну вот так вот
-[10Nov2025 19:41:49.409] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Rixrov> бежал и добежал
-[10Nov2025 19:41:55.586] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <duh> через ад?
-[10Nov2025 19:41:58.985] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Rixrov> не
-[10Nov2025 19:42:01.633] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <duh> t,fnm
-[10Nov2025 19:47:10.225] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Rixrov> ты же вкурсе что темный дуб растет только 2 на 2
-[10Nov2025 19:47:17.896] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <duh> окак
-[10Nov2025 19:51:41.577] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2017ms or 40 ticks behind
-[10Nov2025 19:52:07.397] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-350, y=57, z=165} BlockPos{x=-340, y=57, z=142}
-[10Nov2025 19:52:07.442] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-350, y=57, z=165} BlockPos{x=-340, y=57, z=142}
-[10Nov2025 19:52:07.486] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-350, y=57, z=165} BlockPos{x=-340, y=57, z=142}
-[10Nov2025 19:52:07.540] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-350, y=57, z=165} BlockPos{x=-340, y=57, z=142}
-[10Nov2025 19:52:07.594] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-350, y=57, z=165} BlockPos{x=-340, y=57, z=142}
-[10Nov2025 19:52:14.175] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2066ms or 41 ticks behind
-[10Nov2025 19:52:34.062] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2002ms or 40 ticks behind
-[10Nov2025 19:52:57.973] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2013ms or 40 ticks behind
-[10Nov2025 19:53:17.243] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4283ms or 85 ticks behind
-[10Nov2025 19:53:47.941] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2031ms or 40 ticks behind
-[10Nov2025 19:54:12.554] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2045ms or 40 ticks behind
-[10Nov2025 19:54:42.446] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2037ms or 40 ticks behind
-[10Nov2025 19:55:08.123] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: duh was slain by Zombified Piglin
-[10Nov2025 19:55:28.413] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <duh> рудз
-[10Nov2025 19:55:30.616] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <duh> help
-[10Nov2025 19:56:23.994] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <duh> help
-[10Nov2025 19:58:32.857] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Rixrov has made the advancement [We Need to Go Deeper]
-[10Nov2025 19:59:26.073] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <duh> els
-[10Nov2025 19:59:28.004] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <duh> уды
-[10Nov2025 19:59:29.742] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <duh> еды
-[10Nov2025 19:59:53.145] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Rixrov> а где броня
-[10Nov2025 19:59:54.202] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <duh> тут
-[10Nov2025 20:00:01.208] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <duh> у меня
-[10Nov2025 20:00:21.984] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: _LightFly_ was slain by Piglin
-[10Nov2025 20:00:54.105] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <duh> уды возьми
-[10Nov2025 20:01:24.402] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <_LightFly_> Вещи подберете ?
-[10Nov2025 20:01:32.220] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <duh> кто
-[10Nov2025 20:01:35.324] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <duh> я один тут
-[10Nov2025 20:01:37.662] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <duh> 0 хп
-[10Nov2025 20:02:28.094] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teleported _LightFly_ to duh
-[10Nov2025 20:02:46.188] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <duh> ,thb
-[10Nov2025 20:02:48.492] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <duh> бери
-[10Nov2025 20:03:52.954] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <duh> алооооо
-[10Nov2025 20:04:12.748] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <duh> ну и чо ты встал
-[10Nov2025 20:06:23.413] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <_LightFly_> Золото есть ?
-[10Nov2025 20:06:26.592] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <duh> нет
-[10Nov2025 20:06:30.722] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Rixrov> все
-[10Nov2025 20:06:36.946] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Rixrov> нету кирки
-[10Nov2025 20:06:43.909] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2000ms or 40 ticks behind
-[10Nov2025 20:06:50.563] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: duh fell from a high place
-[10Nov2025 20:07:00.855] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <duh> БЛЯЯЯЯТЬ
-[10Nov2025 20:07:07.409] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <duh> ЕБАНАЧЯ ДЫРКА В 1 ПИКСЕЛЬ
-[10Nov2025 20:07:14.927] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <duh> КОСТЯН
-[10Nov2025 20:07:17.631] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <duh> ХЕЛП
-[10Nov2025 20:07:18.221] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2011ms or 40 ticks behind
-[10Nov2025 20:07:21.627] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Rixrov> ?
-[10Nov2025 20:07:32.690] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Rixrov> ну я здесь
-[10Nov2025 20:07:39.283] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Rixrov> куда ебащь
-[10Nov2025 20:07:58.446] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2036ms or 40 ticks behind
-[10Nov2025 20:08:00.018] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <duh> ЩА
-[10Nov2025 20:08:09.834] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <duh> золото возьму
-[10Nov2025 20:08:13.038] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <duh> у тя есть?
-[10Nov2025 20:08:15.438] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2028ms or 40 ticks behind
-[10Nov2025 20:09:00.849] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <duh> тимур
-[10Nov2025 20:09:05.746] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <duh> у тебе тпаюсь
-[10Nov2025 20:09:06.061] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <_LightFly_> ?
-[10Nov2025 20:09:17.095] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <_LightFly_> Ок
-[10Nov2025 20:09:18.138] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teleported duh to _LightFly_
-[10Nov2025 20:09:25.949] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <duh> куда
-[10Nov2025 20:09:39.230] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <duh> на
-[10Nov2025 20:09:42.033] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <duh> вот шлем
-[10Nov2025 20:10:16.381] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teleported Rixrov to duh
-[10Nov2025 20:10:42.337] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Rixrov tried to swim in lava
-[10Nov2025 20:10:45.179] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Rixrov lost connection: Disconnected
-[10Nov2025 20:10:45.181] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Rixrov left the game
-[10Nov2025 20:10:45.731] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <duh> gbpltw
-[10Nov2025 20:10:48.641] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <_LightFly_> Хуеть
-[10Nov2025 20:11:10.430] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Rixrov[/92.100.50.129:51387] logged in with entity id 53696 at (-539.6415407602389, 22.72474142395507, 205.2093975364713)
-[10Nov2025 20:11:10.435] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Rixrov joined the game
-[10Nov2025 20:11:19.410] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <_LightFly_> Бывает
-[10Nov2025 20:11:34.298] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <duh> да блять что это
-[10Nov2025 20:11:36.664] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <duh> ннахуй
-[10Nov2025 20:11:49.491] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: duh was shot by Skeleton
-[10Nov2025 20:11:57.493] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <duh> ну заячем ты там все застроил камнем
-[10Nov2025 20:12:02.265] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teleported duh to _LightFly_
-[10Nov2025 20:12:47.378] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <duh> да блять
-[10Nov2025 20:12:50.637] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <duh> тут теперь непройти
-[10Nov2025 20:16:00.664] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2005ms or 40 ticks behind
-[10Nov2025 20:16:22.020] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <duh> мотыга не у тя?
-[10Nov2025 20:16:26.073] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <duh> e vtyz
-[10Nov2025 20:16:27.996] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <_LightFly_> Не
-[10Nov2025 20:16:28.106] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <duh> у меня
-[10Nov2025 20:16:56.946] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teleported duh to Rixrov
-[10Nov2025 20:17:01.340] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2131ms or 42 ticks behind
-[10Nov2025 20:17:09.020] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: No entity was found
-[10Nov2025 20:17:11.956] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teleported _LightFly_ to duh
-[10Nov2025 20:17:17.182] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <duh> все пасиба
-[10Nov2025 20:17:25.983] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teleported duh to Rixrov
-[10Nov2025 20:17:44.884] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <duh> блядский рот
-[10Nov2025 20:17:56.151] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Rixrov> мммм
-[10Nov2025 20:18:15.789] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <duh> ну все
-[10Nov2025 20:18:19.850] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <duh> можно чото строить
-[10Nov2025 20:20:14.556] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <_LightFly_> Житель нужен ?
-[10Nov2025 20:20:18.675] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <duh> какоф
-[10Nov2025 20:20:26.143] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <_LightFly_> Ну обычный
-[10Nov2025 20:20:32.427] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <duh> ну можно
-[10Nov2025 20:22:10.402] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Rixrov> что это за говно
-[10Nov2025 20:22:18.637] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <duh> это ад на земле будет
-[10Nov2025 20:23:09.333] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown or incomplete command. See below for error
-[10Nov2025 20:23:09.336] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: set time day<--[HERE]
-[10Nov2025 20:23:19.228] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Set the time to 1000
-[10Nov2025 20:23:24.691] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Rixrov> ого
-[10Nov2025 20:30:38.332] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <_LightFly_> Че устроили ?
-[10Nov2025 20:31:02.390] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <duh> растпространение преисподней
-[10Nov2025 20:31:57.326] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <_LightFly_> ОСУЖДАЮ
-[10Nov2025 20:32:00.826] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Rixrov> хахахаха
-[10Nov2025 20:33:33.976] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Rixrov> говно
-[10Nov2025 20:33:37.253] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <duh> чо
-[10Nov2025 20:33:39.050] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <duh> куда
-[10Nov2025 20:33:41.041] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <duh> нееет
-[10Nov2025 20:33:44.729] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Rixrov> вонэ
-[10Nov2025 20:33:48.060] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Rixrov> у неего
-[10Nov2025 20:33:50.655] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <duh> надо норм сделать
-[10Nov2025 20:34:43.374] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Set the time to 1000
-[10Nov2025 20:35:01.889] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <_LightFly_> тыЫ НАХУЙ
-[10Nov2025 20:35:20.678] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Rixrov> все
-[10Nov2025 20:35:30.990] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <duh> вот
-[10Nov2025 20:38:12.404] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Rixrov> там крч ещё будут такие большие черепа там
-[10Nov2025 20:38:18.092] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Rixrov> ещё кости
-[10Nov2025 20:38:19.004] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <duh> воо
-[10Nov2025 20:38:22.580] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Rixrov> прям акие
-[10Nov2025 20:43:37.939] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Set the time to 1000
-[10Nov2025 20:44:53.687] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Rixrov> бшять
-[10Nov2025 20:44:55.826] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Rixrov> а чо
-[10Nov2025 20:44:59.507] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Rixrov> ну ладно
-[10Nov2025 20:45:07.007] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <duh> чо такое
-[10Nov2025 20:45:11.595] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Rixrov> ну нету
-[10Nov2025 20:45:15.436] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Rixrov> этих
-[10Nov2025 20:45:16.305] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <duh> рандома?
-[10Nov2025 20:45:18.651] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Rixrov> но
-[10Nov2025 20:45:24.690] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <duh> да эт будет
-[10Nov2025 20:45:29.987] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <duh> пока заготовить
-[10Nov2025 20:45:33.003] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Rixrov> кк
-[10Nov2025 20:53:11.899] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: KittyScan (/176.65.148.174:35618) lost connection: Disconnected
-[10Nov2025 20:55:04.886] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Rixrov> алабуга политех
-[10Nov2025 20:55:13.490] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <_LightFly_> Ахуетьт
-[10Nov2025 20:55:16.235] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teleported duh to Rixrov
-[10Nov2025 20:55:21.930] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Set the time to 1000
-[10Nov2025 20:55:24.698] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <_LightFly_> Даже в майнкрафте рекламируют\\
-[10Nov2025 21:02:32.190] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <_LightFly_> На
-[10Nov2025 21:02:37.949] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <_LightFly_> Дай мне железную
-[10Nov2025 21:04:36.290] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Set the time to 1000
-[10Nov2025 21:12:14.160] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-6541, y=92, z=2029} BlockPos{x=-6541, y=92, z=2028}
-[10Nov2025 21:12:14.210] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-6541, y=91, z=2029} BlockPos{x=-6541, y=92, z=2028}
-[10Nov2025 21:13:42.983] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Set the time to 1000
-[10Nov2025 21:15:00.983] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <_LightFly_> Можешь тп ?
-[10Nov2025 21:15:10.136] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teleported _LightFly_ to duh
-[10Nov2025 21:16:20.429] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <duh> лес можно где-нить подалбше
-[10Nov2025 21:16:42.327] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <duh> тут же прсто какое-то здание должно ж быть
-[10Nov2025 21:16:51.695] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <duh> и чтоб лицевая видна была
-[10Nov2025 21:16:58.892] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <duh> или пофиг
-[10Nov2025 21:17:04.178] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <duh> где будет лес там и будет
-[10Nov2025 21:17:27.678] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <duh> вот тут збс
-[10Nov2025 21:17:58.384] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <duh> типо смежно с обычным лесом
-[10Nov2025 21:18:05.133] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <duh> вот тут
-[10Nov2025 21:18:08.598] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <duh> ало?
-[10Nov2025 21:20:36.629] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Set the weather to clear
-[10Nov2025 21:23:33.627] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teleported _LightFly_ to duh
-[10Nov2025 21:23:35.875] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Set the time to 1000
-[10Nov2025 21:24:02.782] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <_LightFly_> Есть незерак ?
-[10Nov2025 21:24:07.884] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <duh> нету
-[10Nov2025 21:24:15.135] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <duh> щас я красный незерак накопаю
-[10Nov2025 21:24:17.828] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <duh> который в лесуц
-[10Nov2025 21:28:38.138] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teleported duh to Rixrov
-[10Nov2025 21:29:07.838] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teleported duh to _LightFly_
-[10Nov2025 21:29:29.434] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Set the time to 1000
-[10Nov2025 21:33:06.886] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teleported duh to Rixrov
-[10Nov2025 21:35:43.350] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2089ms or 41 ticks behind
-[10Nov2025 21:35:50.640] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Set the time to 1000
-[10Nov2025 21:35:52.891] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teleported duh to _LightFly_
-[10Nov2025 21:40:55.880] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-6519, y=94, z=2083} BlockPos{x=-6540, y=92, z=2077}
-[10Nov2025 21:45:13.678] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Set the time to 1000
-[10Nov2025 21:50:17.984] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <duh> дай незерак
-[10Nov2025 21:54:08.132] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Set the time to 1000
-[10Nov2025 21:54:14.383] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Incorrect argument for command
-[10Nov2025 21:54:14.385] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tp duh кшчкщм<--[HERE]
-[10Nov2025 21:54:18.537] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teleported duh to Rixrov
-[10Nov2025 21:54:42.643] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <duh> есть кирка?
-[10Nov2025 21:59:11.426] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teleported duh to Rixrov
-[10Nov2025 21:59:45.881] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teleported duh to -6499.500000, -8.000000, 2060.500000
-[10Nov2025 22:03:44.058] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <duh> дай стак
-[10Nov2025 22:03:51.009] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Rixrov> хуй на
-[10Nov2025 22:03:54.802] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <duh> пиздец
-[10Nov2025 22:03:56.191] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Rixrov> на
-[10Nov2025 22:04:05.708] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <duh> еее
-[10Nov2025 22:04:33.335] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Set the time to 1000
-[10Nov2025 22:05:22.690] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-6508, y=92, z=2077} BlockPos{x=-6512, y=92, z=2077}
-[10Nov2025 22:06:07.896] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-6481, y=91, z=2077} BlockPos{x=-6481, y=92, z=2077}
-[10Nov2025 22:06:07.910] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-6482, y=91, z=2077} BlockPos{x=-6481, y=92, z=2077}
-[10Nov2025 22:06:07.988] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-6481, y=91, z=2077} BlockPos{x=-6481, y=92, z=2077}
-[10Nov2025 22:06:37.895] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-6518, y=93, z=2078} BlockPos{x=-6517, y=93, z=2078}
-[10Nov2025 22:11:51.524] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Rixrov> все нету нихуя
-[10Nov2025 22:11:58.683] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <duh> пепдос
-[10Nov2025 22:14:26.372] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Set the time to 1000
-[10Nov2025 22:14:46.675] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <duh> ну вот кароче
-[10Nov2025 22:14:50.981] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <duh> как то так
-[10Nov2025 22:14:55.675] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <duh> помаленьку
-[10Nov2025 22:15:08.751] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <duh> сичтай осталось градиенты сделать
-[10Nov2025 22:15:18.776] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <duh> переходы между землей и незераком
-[10Nov2025 22:15:34.584] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <duh> добавить типо ландшафта немног
-[10Nov2025 22:15:36.027] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <_LightFly_> Деревьев больше надо сделать
-[10Nov2025 22:15:40.481] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <duh> да
-[10Nov2025 22:15:44.723] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Rixrov> хочу скелет дракона или чего то такого
-[10Nov2025 22:15:48.826] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <duh> всякие штуки
-[10Nov2025 22:15:50.738] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <duh> вот да
-[10Nov2025 22:16:03.123] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <_LightFly_> Костей накопать ?
-[10Nov2025 22:16:30.728] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <_LightFly_> Надо ?
-[10Nov2025 22:16:45.894] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Rixrov> бляить да как его там
-[10Nov2025 22:17:00.725] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <_LightFly_> Кварц ?
-[10Nov2025 22:17:19.957] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Rixrov> не я думал он другое строит
-[10Nov2025 22:19:39.595] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <duh> ну вот нога кароче
-[10Nov2025 22:20:15.709] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Rixrov> алабуга
-[10Nov2025 22:20:24.231] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <_LightFly_> Политех
-[10Nov2025 22:22:50.074] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Set the weather to rain & thunder
-[10Nov2025 22:23:24.080] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <duh> не тухнет
-[10Nov2025 22:23:32.392] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Rixrov> кнш
-[10Nov2025 22:23:43.075] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Rixrov> мы же в преисподнее
-[10Nov2025 22:24:46.890] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <duh> кто
-[10Nov2025 22:26:35.345] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <duh> ало алабуга
-[10Nov2025 22:26:57.783] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <_LightFly_> Так че
-[10Nov2025 22:27:03.652] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <_LightFly_> АЛАБУГА
-[10Nov2025 22:28:08.144] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <duh> ну так вот
-[10Nov2025 22:28:09.757] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <duh> да
-[10Nov2025 22:28:20.587] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <duh> немного ландшафта сделать
-[10Nov2025 22:28:26.872] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <duh> градиентный переход
-[10Nov2025 22:28:33.581] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <duh> и всякие штуки построить
-[10Nov2025 22:28:43.774] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <duh> ну и само здание наверн
-[10Nov2025 22:28:45.881] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <duh> хз
-[10Nov2025 22:28:56.003] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Rixrov> пойду чай пить
-[10Nov2025 22:28:59.296] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <duh> либо без здания
-[10Nov2025 22:29:08.708] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Rixrov> с этими
-[10Nov2025 22:29:12.543] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Rixrov> с бутерами
-[10Nov2025 22:29:15.405] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <duh> ахуеть
-[10Nov2025 22:29:16.908] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Rixrov> вкусными
-[10Nov2025 22:29:27.622] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Rixrov> и чай вкусный тоже
-[10Nov2025 22:29:29.254] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <duh> можно просто портал поднять
-[10Nov2025 22:29:33.052] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Rixrov> красный такой крч
-[10Nov2025 22:29:38.155] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Rixrov> с ягодами наверн
-[10Nov2025 22:29:45.205] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <duh> и типо оформить круто
-[10Nov2025 22:29:50.524] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <duh> иди нахуй
-[10Nov2025 22:29:56.251] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Rixrov> и о да да круто офромить
-[10Nov2025 22:30:02.659] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <_LightFly_> Может нахуй пойдешь со своим чаем ?
-[10Nov2025 22:30:07.675] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Rixrov> но не кредит кнш же
-[10Nov2025 22:30:22.021] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <duh> \kick rixrov
-[10Nov2025 22:30:28.131] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <_LightFly_> Какой нахуйй кредит ТЫ О ЧЕМ
-[10Nov2025 22:30:29.524] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Rixrov> и ТИмур нахуй пойдет тоже круто бкдет
-[10Nov2025 22:30:33.746] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <duh> давай иди
-[10Nov2025 22:30:38.279] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Rixrov> ну и вот
-[10Nov2025 22:30:38.702] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <duh> я тож пойду полежу
-[10Nov2025 22:30:43.777] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: duh lost connection: Disconnected
-[10Nov2025 22:30:43.779] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: duh left the game
-[10Nov2025 22:30:43.830] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Rixrov> вот так вот
-[10Nov2025 22:30:44.999] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Rixrov> да
-[10Nov2025 22:30:47.431] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Rixrov> все
-[10Nov2025 22:30:48.522] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Rixrov lost connection: Disconnected
-[10Nov2025 22:30:48.525] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Rixrov left the game
-[10Nov2025 22:30:50.574] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: _LightFly_ lost connection: Disconnected
-[10Nov2025 22:30:50.576] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: _LightFly_ left the game
-[10Nov2025 22:31:50.560] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Server empty for 60 seconds, pausing
-[10Nov2025 22:44:50.633] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: _LightFly_[/176.119.22.51:24058] logged in with entity id 94864 at (-6512.920317454153, 94.0, 2041.1552859996434)
-[10Nov2025 22:44:50.638] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: _LightFly_ joined the game
-[10Nov2025 23:11:29.324] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: _LightFly_ lost connection: Disconnected
-[10Nov2025 23:11:29.326] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: _LightFly_ left the game
-[10Nov2025 23:12:29.310] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Server empty for 60 seconds, pausing
-[10Nov2025 23:43:57.677] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: _LightFly_[/176.119.22.51:16147] logged in with entity id 98551 at (-989.7342408763078, 52.0, 201.14746079578163)
-[10Nov2025 23:43:57.681] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: _LightFly_ joined the game
-[10Nov2025 23:43:59.483] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teleported _LightFly_ to -6499.500000, -8.000000, 2060.500000
-[10Nov2025 23:44:16.525] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: You whisper to _LightFly_: good?
-[10Nov2025 23:44:22.852] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <_LightFly_> да
-[10Nov2025 23:44:26.221] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <_LightFly_> Да
-[10Nov2025 23:44:39.452] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: You whisper to _LightFly_: сервак оставить?
-[10Nov2025 23:44:47.188] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <_LightFly_> Да не наверно
-[10Nov2025 23:44:51.374] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <_LightFly_> Пойду полежу
-[10Nov2025 23:44:54.272] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
-[10Nov2025 23:44:54.332] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[10Nov2025 23:44:54.337] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[10Nov2025 23:44:54.356] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: _LightFly_ lost connection: Server closed
-[10Nov2025 23:44:54.358] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: _LightFly_ left the game
-[10Nov2025 23:44:54.379] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[10Nov2025 23:44:54.471] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[10Nov2025 23:44:54.614] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[10Nov2025 23:44:54.636] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[10Nov2025 23:44:54.673] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[10Nov2025 23:44:54.675] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[10Nov2025 23:44:54.676] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[10Nov2025 23:44:54.677] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[23Nov2025 17:31:59.418] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forge_server, nogui]
+[23Nov2025 17:31:59.431] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Oracle Corporation Java HotSpot(TM) 64-Bit Server VM 25.0.1+8-LTS-27
+[23Nov2025 17:31:59.432] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.2.4 starting: java version 25.0.1 by Oracle Corporation; OS Windows 10 arch amd64 version 10.0
+[23Nov2025 17:31:59.612] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forge_server
+[23Nov2025 17:31:59.791] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=jar:file:///C:/Users/nerboros/forge-1.21.10/libraries/org/spongepowered/mixin/0.8.7/mixin-0.8.7.jar!/ Service=ModLauncher Env=SERVER
+[23Nov2025 17:32:00.151] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[23Nov2025 17:32:00.540] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forge_server' with arguments [nogui]
+[23Nov2025 17:32:12.236] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 60.0.15, for MC 1.21.10 with MCP 20251007.101210
+[23Nov2025 17:32:12.239] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v60.0.15 Initialized
+[23Nov2025 17:32:12.261] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Opening jdk.naming.dns/com.sun.jndi.dns to java.naming
+[23Nov2025 17:32:12.921] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[23Nov2025 17:32:14.092] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 60.0.15 Target: 60.1.0
+[23Nov2025 17:32:14.575] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[23Nov2025 17:32:18.524] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1461 recipes
+[23Nov2025 17:32:18.548] [main/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1574 advancements
+[23Nov2025 17:32:18.739] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.21.10
+[23Nov2025 17:32:18.740] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[23Nov2025 17:32:18.742] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[23Nov2025 17:32:18.743] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[23Nov2025 17:32:18.856] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[23Nov2025 17:32:18.941] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using default channel type
+[23Nov2025 17:32:19.034] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[23Nov2025 17:32:19.036] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[23Nov2025 17:32:19.037] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[23Nov2025 17:32:19.039] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[23Nov2025 17:32:19.081] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[23Nov2025 17:32:19.522] [Server thread/INFO] [net.minecraft.server.level.progress.LoggingLevelLoadListener/]: Loading 0 persistent chunks...
+[23Nov2025 17:32:19.544] [Server thread/INFO] [net.minecraft.server.level.progress.LoggingLevelLoadListener/]: Preparing spawn area: 100%
+[23Nov2025 17:32:19.558] [Server thread/INFO] [net.minecraft.server.level.progress.LoggingLevelLoadListener/]: Time elapsed: 36 ms
+[23Nov2025 17:32:19.560] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (0.502s)! For help, type "help"
+[23Nov2025 17:32:19.753] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[23Nov2025 17:33:19.759] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Server empty for 60 seconds, pausing
+[23Nov2025 17:39:12.778] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Rixrov[/92.100.50.129:58816] logged in with entity id 69 at (-6515.965059697839, 94.0, 2032.5428700594914)
+[23Nov2025 17:39:12.819] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Rixrov joined the game
+[23Nov2025 17:39:16.028] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2020ms or 40 ticks behind
+[23Nov2025 17:44:00.815] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: duh[/127.0.0.1:55644] logged in with entity id 1051 at (-6515.637418049019, 94.5625, 2036.7957571829145)
+[23Nov2025 17:44:00.825] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: duh joined the game
+[23Nov2025 17:50:01.340] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Set the time to 1000
+[23Nov2025 17:50:09.526] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Set the weather to clear
+[23Nov2025 17:50:13.833] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teleported duh to Rixrov
+[23Nov2025 17:53:07.120] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: _LightFly_[/176.119.22.51:47027] logged in with entity id 3392 at (-6516.524268477185, 94.0, 2041.3097489807221)
+[23Nov2025 17:53:07.142] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: _LightFly_ joined the game
+[23Nov2025 17:55:28.483] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: /176.65.134.12:63478 lost connection: Internal Exception: io.netty.handler.codec.DecoderException: java.io.IOException: Packet login/serverbound/minecraft:hello (ServerboundHelloPacket) was larger than I expected, found 1 bytes extra whilst reading packet serverbound/minecraft:hello
+[23Nov2025 17:55:30.181] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Rixrov was shot by Skeleton
+[23Nov2025 17:55:52.687] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teleported Rixrov to duh
+[23Nov2025 17:56:34.446] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Rixrov was slain by Spider
+[23Nov2025 17:56:43.087] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teleported Rixrov to duh
+[23Nov2025 17:59:55.058] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2050ms or 41 ticks behind
+[23Nov2025 18:00:10.619] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Rixrov was blown up by Creeper
+[23Nov2025 18:00:14.194] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teleported Rixrov to duh
+[23Nov2025 18:00:19.398] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teleported Rixrov to duh
+[23Nov2025 18:03:24.695] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teleported Rixrov to duh
+[23Nov2025 18:04:07.143] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Rixrov was shot by duh
+[23Nov2025 18:04:13.675] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teleported Rixrov to duh
+[23Nov2025 18:06:13.620] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2012ms or 40 ticks behind
+[23Nov2025 18:06:31.951] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3343ms or 66 ticks behind
+[23Nov2025 18:06:49.641] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2733ms or 54 ticks behind
+[23Nov2025 18:07:16.236] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Set the time to 1000
+[23Nov2025 18:13:20.200] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <_LightFly_> ТП НАЗУУУУУУУУУУУУЙ
+[23Nov2025 18:13:40.384] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teleported _LightFly_ to duh
+[23Nov2025 18:18:01.923] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Set the time to 1000
+[23Nov2025 18:27:46.674] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Set the time to 1000
+[23Nov2025 18:28:51.978] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: duh lost connection: Disconnected
+[23Nov2025 18:28:51.981] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: duh left the game
+[23Nov2025 18:30:31.925] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Set the time to 1000
+[23Nov2025 18:35:58.521] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Set the time to 1000
+[23Nov2025 18:37:08.792] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: duh[/127.0.0.1:57304] logged in with entity id 23907 at (-6516.811635699607, 94.5625, 2035.5583570730932)
+[23Nov2025 18:37:08.803] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: duh joined the game
+[23Nov2025 18:37:32.884] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-6667, y=105, z=2116} BlockPos{x=-6666, y=103, z=2117}
+[23Nov2025 18:37:40.382] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teleported duh to Rixrov
+[23Nov2025 18:39:02.427] [Netty Server IO #4/ERROR] [net.minecraft.network.PacketEncoder/]: Error sending packet clientbound/minecraft:disconnect
+io.netty.handler.codec.EncoderException: Sending unknown packet 'clientbound/minecraft:disconnect'
+	at TRANSFORMER/minecraft@1.21.10/net.minecraft.network.codec.IdDispatchCodec.encode(IdDispatchCodec.java:50) ~[forge-1.21.10-60.0.15-server.jar!/:?]
+	at TRANSFORMER/minecraft@1.21.10/net.minecraft.network.codec.IdDispatchCodec.encode(IdDispatchCodec.java:14) ~[forge-1.21.10-60.0.15-server.jar!/:?]
+	at TRANSFORMER/minecraft@1.21.10/net.minecraft.network.PacketEncoder.encode(PacketEncoder.java:26) [forge-1.21.10-60.0.15-server.jar!/:?]
+	at TRANSFORMER/minecraft@1.21.10/net.minecraft.network.PacketEncoder.encode(PacketEncoder.java:12) [forge-1.21.10-60.0.15-server.jar!/:?]
+	at SECURE-BOOTSTRAP/io.netty.codec@4.1.118.Final/io.netty.handler.codec.MessageToByteEncoder.write(MessageToByteEncoder.java:107) [netty-codec-4.1.118.Final.jar!/:4.1.118.Final]
+	at SECURE-BOOTSTRAP/io.netty.transport@4.1.118.Final/io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:893) [netty-transport-4.1.118.Final.jar!/:4.1.118.Final]
+	at SECURE-BOOTSTRAP/io.netty.transport@4.1.118.Final/io.netty.channel.AbstractChannelHandlerContext.invokeWrite(AbstractChannelHandlerContext.java:875) [netty-transport-4.1.118.Final.jar!/:4.1.118.Final]
+	at SECURE-BOOTSTRAP/io.netty.transport@4.1.118.Final/io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:984) [netty-transport-4.1.118.Final.jar!/:4.1.118.Final]
+	at SECURE-BOOTSTRAP/io.netty.transport@4.1.118.Final/io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:868) [netty-transport-4.1.118.Final.jar!/:4.1.118.Final]
+	at SECURE-BOOTSTRAP/io.netty.transport@4.1.118.Final/io.netty.channel.ChannelOutboundHandlerAdapter.write(ChannelOutboundHandlerAdapter.java:113) [netty-transport-4.1.118.Final.jar!/:4.1.118.Final]
+	at TRANSFORMER/minecraft@1.21.10/net.minecraft.network.Connection$2.write(Connection.java:515) [forge-1.21.10-60.0.15-server.jar!/:?]
+	at SECURE-BOOTSTRAP/io.netty.transport@4.1.118.Final/io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:893) [netty-transport-4.1.118.Final.jar!/:4.1.118.Final]
+	at SECURE-BOOTSTRAP/io.netty.transport@4.1.118.Final/io.netty.channel.AbstractChannelHandlerContext.invokeWriteAndFlush(AbstractChannelHandlerContext.java:956) [netty-transport-4.1.118.Final.jar!/:4.1.118.Final]
+	at SECURE-BOOTSTRAP/io.netty.transport@4.1.118.Final/io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:982) [netty-transport-4.1.118.Final.jar!/:4.1.118.Final]
+	at SECURE-BOOTSTRAP/io.netty.transport@4.1.118.Final/io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:950) [netty-transport-4.1.118.Final.jar!/:4.1.118.Final]
+	at SECURE-BOOTSTRAP/io.netty.transport@4.1.118.Final/io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:1000) [netty-transport-4.1.118.Final.jar!/:4.1.118.Final]
+	at SECURE-BOOTSTRAP/io.netty.transport@4.1.118.Final/io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:974) [netty-transport-4.1.118.Final.jar!/:4.1.118.Final]
+	at SECURE-BOOTSTRAP/io.netty.transport@4.1.118.Final/io.netty.channel.AbstractChannel.writeAndFlush(AbstractChannel.java:305) [netty-transport-4.1.118.Final.jar!/:4.1.118.Final]
+	at TRANSFORMER/minecraft@1.21.10/net.minecraft.network.Connection.doSendPacket(Connection.java:356) [forge-1.21.10-60.0.15-server.jar!/:?]
+	at TRANSFORMER/minecraft@1.21.10/net.minecraft.network.Connection.sendPacket(Connection.java:348) [forge-1.21.10-60.0.15-server.jar!/:?]
+	at TRANSFORMER/minecraft@1.21.10/net.minecraft.network.Connection.send(Connection.java:330) [forge-1.21.10-60.0.15-server.jar!/:?]
+	at TRANSFORMER/minecraft@1.21.10/net.minecraft.network.Connection.send(Connection.java:324) [forge-1.21.10-60.0.15-server.jar!/:?]
+	at TRANSFORMER/minecraft@1.21.10/net.minecraft.network.Connection.exceptionCaught(Connection.java:164) [forge-1.21.10-60.0.15-server.jar!/:?]
+	at SECURE-BOOTSTRAP/io.netty.transport@4.1.118.Final/io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:346) [netty-transport-4.1.118.Final.jar!/:4.1.118.Final]
+	at SECURE-BOOTSTRAP/io.netty.transport@4.1.118.Final/io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:325) [netty-transport-4.1.118.Final.jar!/:4.1.118.Final]
+	at SECURE-BOOTSTRAP/io.netty.transport@4.1.118.Final/io.netty.channel.AbstractChannelHandlerContext.fireExceptionCaught(AbstractChannelHandlerContext.java:317) [netty-transport-4.1.118.Final.jar!/:4.1.118.Final]
+	at SECURE-BOOTSTRAP/io.netty.transport@4.1.118.Final/io.netty.channel.DefaultChannelPipeline$HeadContext.exceptionCaught(DefaultChannelPipeline.java:1324) [netty-transport-4.1.118.Final.jar!/:4.1.118.Final]
+	at SECURE-BOOTSTRAP/io.netty.transport@4.1.118.Final/io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:346) [netty-transport-4.1.118.Final.jar!/:4.1.118.Final]
+	at SECURE-BOOTSTRAP/io.netty.transport@4.1.118.Final/io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:325) [netty-transport-4.1.118.Final.jar!/:4.1.118.Final]
+	at SECURE-BOOTSTRAP/io.netty.transport@4.1.118.Final/io.netty.channel.DefaultChannelPipeline.fireExceptionCaught(DefaultChannelPipeline.java:856) [netty-transport-4.1.118.Final.jar!/:4.1.118.Final]
+	at SECURE-BOOTSTRAP/io.netty.transport@4.1.118.Final/io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.handleReadException(AbstractNioByteChannel.java:125) [netty-transport-4.1.118.Final.jar!/:4.1.118.Final]
+	at SECURE-BOOTSTRAP/io.netty.transport@4.1.118.Final/io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:177) [netty-transport-4.1.118.Final.jar!/:4.1.118.Final]
+	at SECURE-BOOTSTRAP/io.netty.transport@4.1.118.Final/io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:796) [netty-transport-4.1.118.Final.jar!/:4.1.118.Final]
+	at SECURE-BOOTSTRAP/io.netty.transport@4.1.118.Final/io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:732) [netty-transport-4.1.118.Final.jar!/:4.1.118.Final]
+	at SECURE-BOOTSTRAP/io.netty.transport@4.1.118.Final/io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:658) [netty-transport-4.1.118.Final.jar!/:4.1.118.Final]
+	at SECURE-BOOTSTRAP/io.netty.transport@4.1.118.Final/io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) [netty-transport-4.1.118.Final.jar!/:4.1.118.Final]
+	at SECURE-BOOTSTRAP/io.netty.common@4.1.118.Final/io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:998) [netty-common-4.1.118.Final.jar!/:4.1.118.Final]
+	at SECURE-BOOTSTRAP/io.netty.common@4.1.118.Final/io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.118.Final.jar!/:4.1.118.Final]
+	at java.base/java.lang.Thread.run(Thread.java:1474) [?:?]
+[23Nov2025 18:40:11.825] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teleported duh to Rixrov
+[23Nov2025 18:41:31.574] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Rixrov was shot by _LightFly_
+[23Nov2025 18:41:38.827] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teleported Rixrov to duh
+[23Nov2025 18:47:19.024] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teleported _LightFly_ to duh
+[23Nov2025 18:48:29.599] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: _LightFly_ was slain by Zombie
+[23Nov2025 18:52:53.029] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Set the time to 1000
+[23Nov2025 18:53:18.034] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: duh lost connection: Disconnected
+[23Nov2025 18:53:18.037] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: duh left the game
+[23Nov2025 18:54:03.023] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Rixrov lost connection: Disconnected
+[23Nov2025 18:54:03.025] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Rixrov left the game
+[23Nov2025 18:54:06.621] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: _LightFly_ lost connection: Disconnected
+[23Nov2025 18:54:06.624] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: _LightFly_ left the game
+[23Nov2025 18:55:06.610] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Server empty for 60 seconds, pausing
+[23Nov2025 18:58:30.510] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[23Nov2025 18:58:30.562] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[23Nov2025 18:58:30.566] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[23Nov2025 18:58:30.568] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[23Nov2025 18:58:30.571] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[23Nov2025 18:58:30.606] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[23Nov2025 18:58:30.611] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[23Nov2025 18:58:30.647] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[23Nov2025 18:58:30.649] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[23Nov2025 18:58:30.651] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[23Nov2025 18:58:30.653] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
